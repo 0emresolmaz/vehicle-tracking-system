@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-tracking",
+  "version": "1.0.0",
+  "description": "vehicle tracking system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saitemresolmaz/vehicle-tracking-system.git"
+  },
+  "author": "Emre Solmaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saitemresolmaz/vehicle-tracking-system/issues"
+  },
+  "homepage": "https://github.com/saitemresolmaz/vehicle-tracking-system#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "underscore": "^1.13.2"
+  }
+}
