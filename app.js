@@ -8,10 +8,7 @@ app.use(bodyParser.json());
 
 
 //Routes
-app.use("/vehicle_list",vehicleRouter)
-app.use('/vehicle_add', vehicleRouter);
-app.use('/vehicle_update/' ,vehicleRouter);
-app.use('/vehicle_delete/' ,vehicleRouter);
+app.use("/vehicle",vehicleRouter);
 
 app.get('*', function(req, res){
     res.send('404 Not Found');
