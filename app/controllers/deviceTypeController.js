@@ -15,7 +15,7 @@ exports.getDevicesTypes = async (req, res) => {
     }
 }
 
-exports.createDevicesType = async (req, res) => {
+exports.createDeviceType = async (req, res) => {
 
     let body = _.pick(req.body, "id", "device_name", "device_description", "is_active")  
 
@@ -38,7 +38,7 @@ exports.createDevicesType = async (req, res) => {
     }
 }
 
-exports.deleteDevicesType = async (req, res) => {
+exports.deleteDeviceType = async (req, res) => {
 
     let body = _.pick(req.body, "id", "device_name", "device_description", "is_active")
 

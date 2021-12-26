@@ -1,5 +1,4 @@
 const db = require("../adapters/database/postgresql")
-var bodyParser = require("body-parser"); // veriyi parcalar (parseler) ve bize array doner
 var _ = require("underscore"); //body parserdan donen arrayin indislerini tek tek okumak icin isimizi kolaylastirir.
 
 exports.getVehicles = async (req, res) => {
