@@ -49,7 +49,7 @@ exports.updateVehicle = async (req, res) => {
     const response = await db.pg_client.query(getVehiclesQuery, [vehicle_plate])
 
     if (response.rowCount === 0) {
-        res.send("vehicle is not exist")
+        res.send("vehicle is not exist in database")
     }
     else {
         try {
